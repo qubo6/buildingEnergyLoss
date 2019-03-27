@@ -44,14 +44,23 @@ namespace EnergyLoss
             _viewModel.Name = txtName.Text;
             _viewModel.MinOutTemp = double.Parse(txtMinOutTmp.Text);
             _viewModel.HeatTemp = double.Parse(txtHeatTmp.Text);
+            _viewModel.AreaRoof = (double)numAreaRoof.Value;
 
-            List<Material> materRoof = new List<Material>();
-            materRoof.Add(_viewModel.CreateMaterial((int)cmbRoof1.SelectedValue, (double)numRoof1.Value));
-            materRoof.Add(_viewModel.CreateMaterial((int)cmbRoof2.SelectedValue, (double)numRoof2.Value));
-            materRoof.Add(_viewModel.CreateMaterial((int)cmbRoof3.SelectedValue, (double)numRoof3.Value));
-            materRoof.Add(_viewModel.CreateMaterial((int)cmbRoof4.SelectedValue, (double)numRoof4.Value));
-            Roof strecha = new Roof((double)numAreaRoof.Value,materRoof);
-            MessageBox.Show(strecha.Calc().ToString());
+            //vytvaranie IdListu z combo pre strechu
+            _viewModel.IdRoof.Add((int)cmbRoof1.SelectedValue);
+            _viewModel.IdRoof.Add((int)cmbRoof2.SelectedValue);
+            _viewModel.IdRoof.Add((int)cmbRoof3.SelectedValue);
+            _viewModel.IdRoof.Add((int)cmbRoof4.SelectedValue);
+            //vytvaranie WidthListu z numUp pre strechu
+            _viewModel.WidthRoof.Add((double)numRoof1.Value);
+            _viewModel.WidthRoof.Add((double)numRoof2.Value);
+            _viewModel.WidthRoof.Add((double)numRoof3.Value);
+            _viewModel.WidthRoof.Add((double)numRoof4.Value);
+
+
+
+
+            MessageBox.Show(_viewModel.CalculateRoof().ToString());
         }
 
         private void rBtnBuild_CheckedChanged(object sender, EventArgs e)
@@ -61,6 +70,7 @@ namespace EnergyLoss
             {
                 _viewModel.BuildType = double.Parse(radioButton.Tag.ToString());
             }
+
         }
 
         private void rBtnNat_CheckedChanged(object sender, EventArgs e)
@@ -73,5 +83,5 @@ namespace EnergyLoss
         }
 
 
-    }
+}
 }

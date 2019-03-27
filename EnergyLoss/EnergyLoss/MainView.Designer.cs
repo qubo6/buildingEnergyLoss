@@ -59,56 +59,34 @@
             this.numRoof1 = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.label13 = new System.Windows.Forms.Label();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown20 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown21 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown22 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown23 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown24 = new System.Windows.Forms.NumericUpDown();
-            this.label14 = new System.Windows.Forms.Label();
-            this.numericUpDown25 = new System.Windows.Forms.NumericUpDown();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
             this.numAreaWall = new System.Windows.Forms.NumericUpDown();
             this.label20 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
-            this.label21 = new System.Windows.Forms.Label();
-            this.numericUpDown13 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown26 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown27 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown28 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown29 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown30 = new System.Windows.Forms.NumericUpDown();
-            this.label22 = new System.Windows.Forms.Label();
-            this.numericUpDown31 = new System.Windows.Forms.NumericUpDown();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numAreaFloor = new System.Windows.Forms.NumericUpDown();
             this.label28 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
             this.txtResult = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.cmbWall4 = new System.Windows.Forms.ComboBox();
+            this.cmbWall3 = new System.Windows.Forms.ComboBox();
+            this.cmbWall2 = new System.Windows.Forms.ComboBox();
+            this.cmbWall1 = new System.Windows.Forms.ComboBox();
+            this.numWall4 = new System.Windows.Forms.NumericUpDown();
+            this.numWall3 = new System.Windows.Forms.NumericUpDown();
+            this.numWall2 = new System.Windows.Forms.NumericUpDown();
+            this.label4 = new System.Windows.Forms.Label();
+            this.numWall1 = new System.Windows.Forms.NumericUpDown();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.cmbFloor4 = new System.Windows.Forms.ComboBox();
+            this.cmbFloor3 = new System.Windows.Forms.ComboBox();
+            this.cmbFloor2 = new System.Windows.Forms.ComboBox();
+            this.cmbFloor1 = new System.Windows.Forms.ComboBox();
+            this.numFloor4 = new System.Windows.Forms.NumericUpDown();
+            this.numFloor3 = new System.Windows.Forms.NumericUpDown();
+            this.numFloor2 = new System.Windows.Forms.NumericUpDown();
+            this.label7 = new System.Windows.Forms.Label();
+            this.numFloor1 = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -121,36 +99,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.numRoof2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numRoof1)).BeginInit();
             this.tabPage3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numAreaWall)).BeginInit();
             this.tabPage4.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numAreaFloor)).BeginInit();
             this.tabPage5.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numWall4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numWall3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numWall2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numWall1)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numFloor4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFloor3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFloor2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFloor1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -476,189 +438,6 @@
             this.tabPage3.Text = "Steny";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.numericUpDown2);
-            this.panel2.Controls.Add(this.numericUpDown3);
-            this.panel2.Controls.Add(this.numericUpDown4);
-            this.panel2.Controls.Add(this.numericUpDown5);
-            this.panel2.Controls.Add(this.numericUpDown6);
-            this.panel2.Controls.Add(this.label13);
-            this.panel2.Controls.Add(this.numericUpDown7);
-            this.panel2.Controls.Add(this.numericUpDown20);
-            this.panel2.Controls.Add(this.numericUpDown21);
-            this.panel2.Controls.Add(this.numericUpDown22);
-            this.panel2.Controls.Add(this.numericUpDown23);
-            this.panel2.Controls.Add(this.numericUpDown24);
-            this.panel2.Controls.Add(this.label14);
-            this.panel2.Controls.Add(this.numericUpDown25);
-            this.panel2.Controls.Add(this.label15);
-            this.panel2.Controls.Add(this.label16);
-            this.panel2.Controls.Add(this.label17);
-            this.panel2.Controls.Add(this.label18);
-            this.panel2.Controls.Add(this.label19);
-            this.panel2.Controls.Add(this.label30);
-            this.panel2.Location = new System.Drawing.Point(23, 45);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(521, 254);
-            this.panel2.TabIndex = 18;
-            // 
-            // numericUpDown2
-            // 
-            this.numericUpDown2.Location = new System.Drawing.Point(242, 188);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown2.TabIndex = 20;
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.Location = new System.Drawing.Point(242, 159);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown3.TabIndex = 19;
-            // 
-            // numericUpDown4
-            // 
-            this.numericUpDown4.Location = new System.Drawing.Point(242, 130);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown4.TabIndex = 18;
-            // 
-            // numericUpDown5
-            // 
-            this.numericUpDown5.Location = new System.Drawing.Point(242, 102);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown5.TabIndex = 17;
-            // 
-            // numericUpDown6
-            // 
-            this.numericUpDown6.Location = new System.Drawing.Point(242, 74);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown6.TabIndex = 16;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(239, 14);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(89, 17);
-            this.label13.TabIndex = 15;
-            this.label13.Text = "Počet vrstiev";
-            // 
-            // numericUpDown7
-            // 
-            this.numericUpDown7.Location = new System.Drawing.Point(242, 44);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown7.TabIndex = 14;
-            // 
-            // numericUpDown20
-            // 
-            this.numericUpDown20.Location = new System.Drawing.Point(134, 188);
-            this.numericUpDown20.Name = "numericUpDown20";
-            this.numericUpDown20.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown20.TabIndex = 13;
-            // 
-            // numericUpDown21
-            // 
-            this.numericUpDown21.Location = new System.Drawing.Point(134, 159);
-            this.numericUpDown21.Name = "numericUpDown21";
-            this.numericUpDown21.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown21.TabIndex = 12;
-            // 
-            // numericUpDown22
-            // 
-            this.numericUpDown22.Location = new System.Drawing.Point(134, 130);
-            this.numericUpDown22.Name = "numericUpDown22";
-            this.numericUpDown22.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown22.TabIndex = 11;
-            // 
-            // numericUpDown23
-            // 
-            this.numericUpDown23.Location = new System.Drawing.Point(134, 102);
-            this.numericUpDown23.Name = "numericUpDown23";
-            this.numericUpDown23.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown23.TabIndex = 10;
-            // 
-            // numericUpDown24
-            // 
-            this.numericUpDown24.Location = new System.Drawing.Point(134, 74);
-            this.numericUpDown24.Name = "numericUpDown24";
-            this.numericUpDown24.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown24.TabIndex = 9;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(131, 14);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(87, 17);
-            this.label14.TabIndex = 8;
-            this.label14.Text = "Hrúbka v cm";
-            // 
-            // numericUpDown25
-            // 
-            this.numericUpDown25.Location = new System.Drawing.Point(134, 44);
-            this.numericUpDown25.Name = "numericUpDown25";
-            this.numericUpDown25.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown25.TabIndex = 7;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(14, 190);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(60, 17);
-            this.label15.TabIndex = 6;
-            this.label15.Text = "Omietka";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(14, 46);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(45, 17);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "Betón";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(14, 161);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(86, 17);
-            this.label17.TabIndex = 5;
-            this.label17.Text = "Sádrokartón";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(14, 76);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(45, 17);
-            this.label18.TabIndex = 2;
-            this.label18.Text = "Ytong";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(14, 132);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(98, 17);
-            this.label19.TabIndex = 4;
-            this.label19.Text = "Sklenená vata";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(14, 104);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(74, 17);
-            this.label30.TabIndex = 3;
-            this.label30.Text = "Polystyrén";
-            // 
             // numAreaWall
             // 
             this.numAreaWall.Location = new System.Drawing.Point(157, 16);
@@ -678,7 +457,7 @@
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.panel3);
-            this.tabPage4.Controls.Add(this.numericUpDown1);
+            this.tabPage4.Controls.Add(this.numAreaFloor);
             this.tabPage4.Controls.Add(this.label28);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Name = "tabPage4";
@@ -688,195 +467,12 @@
             this.tabPage4.Text = "Podlaha";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // panel3
+            // numAreaFloor
             // 
-            this.panel3.Controls.Add(this.numericUpDown8);
-            this.panel3.Controls.Add(this.numericUpDown9);
-            this.panel3.Controls.Add(this.numericUpDown10);
-            this.panel3.Controls.Add(this.numericUpDown11);
-            this.panel3.Controls.Add(this.numericUpDown12);
-            this.panel3.Controls.Add(this.label21);
-            this.panel3.Controls.Add(this.numericUpDown13);
-            this.panel3.Controls.Add(this.numericUpDown26);
-            this.panel3.Controls.Add(this.numericUpDown27);
-            this.panel3.Controls.Add(this.numericUpDown28);
-            this.panel3.Controls.Add(this.numericUpDown29);
-            this.panel3.Controls.Add(this.numericUpDown30);
-            this.panel3.Controls.Add(this.label22);
-            this.panel3.Controls.Add(this.numericUpDown31);
-            this.panel3.Controls.Add(this.label23);
-            this.panel3.Controls.Add(this.label24);
-            this.panel3.Controls.Add(this.label25);
-            this.panel3.Controls.Add(this.label26);
-            this.panel3.Controls.Add(this.label27);
-            this.panel3.Controls.Add(this.label31);
-            this.panel3.Location = new System.Drawing.Point(20, 43);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(521, 254);
-            this.panel3.TabIndex = 21;
-            // 
-            // numericUpDown8
-            // 
-            this.numericUpDown8.Location = new System.Drawing.Point(242, 188);
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown8.TabIndex = 20;
-            // 
-            // numericUpDown9
-            // 
-            this.numericUpDown9.Location = new System.Drawing.Point(242, 159);
-            this.numericUpDown9.Name = "numericUpDown9";
-            this.numericUpDown9.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown9.TabIndex = 19;
-            // 
-            // numericUpDown10
-            // 
-            this.numericUpDown10.Location = new System.Drawing.Point(242, 130);
-            this.numericUpDown10.Name = "numericUpDown10";
-            this.numericUpDown10.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown10.TabIndex = 18;
-            // 
-            // numericUpDown11
-            // 
-            this.numericUpDown11.Location = new System.Drawing.Point(242, 102);
-            this.numericUpDown11.Name = "numericUpDown11";
-            this.numericUpDown11.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown11.TabIndex = 17;
-            // 
-            // numericUpDown12
-            // 
-            this.numericUpDown12.Location = new System.Drawing.Point(242, 74);
-            this.numericUpDown12.Name = "numericUpDown12";
-            this.numericUpDown12.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown12.TabIndex = 16;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(239, 14);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(89, 17);
-            this.label21.TabIndex = 15;
-            this.label21.Text = "Počet vrstiev";
-            // 
-            // numericUpDown13
-            // 
-            this.numericUpDown13.Location = new System.Drawing.Point(242, 44);
-            this.numericUpDown13.Name = "numericUpDown13";
-            this.numericUpDown13.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown13.TabIndex = 14;
-            // 
-            // numericUpDown26
-            // 
-            this.numericUpDown26.Location = new System.Drawing.Point(134, 188);
-            this.numericUpDown26.Name = "numericUpDown26";
-            this.numericUpDown26.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown26.TabIndex = 13;
-            // 
-            // numericUpDown27
-            // 
-            this.numericUpDown27.Location = new System.Drawing.Point(134, 159);
-            this.numericUpDown27.Name = "numericUpDown27";
-            this.numericUpDown27.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown27.TabIndex = 12;
-            // 
-            // numericUpDown28
-            // 
-            this.numericUpDown28.Location = new System.Drawing.Point(134, 130);
-            this.numericUpDown28.Name = "numericUpDown28";
-            this.numericUpDown28.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown28.TabIndex = 11;
-            // 
-            // numericUpDown29
-            // 
-            this.numericUpDown29.Location = new System.Drawing.Point(134, 102);
-            this.numericUpDown29.Name = "numericUpDown29";
-            this.numericUpDown29.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown29.TabIndex = 10;
-            // 
-            // numericUpDown30
-            // 
-            this.numericUpDown30.Location = new System.Drawing.Point(134, 74);
-            this.numericUpDown30.Name = "numericUpDown30";
-            this.numericUpDown30.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown30.TabIndex = 9;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(131, 14);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(87, 17);
-            this.label22.TabIndex = 8;
-            this.label22.Text = "Hrúbka v cm";
-            // 
-            // numericUpDown31
-            // 
-            this.numericUpDown31.Location = new System.Drawing.Point(134, 44);
-            this.numericUpDown31.Name = "numericUpDown31";
-            this.numericUpDown31.Size = new System.Drawing.Size(84, 23);
-            this.numericUpDown31.TabIndex = 7;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(14, 190);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(60, 17);
-            this.label23.TabIndex = 6;
-            this.label23.Text = "Omietka";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(14, 46);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(45, 17);
-            this.label24.TabIndex = 1;
-            this.label24.Text = "Betón";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(14, 161);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(86, 17);
-            this.label25.TabIndex = 5;
-            this.label25.Text = "Sádrokartón";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(14, 76);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(45, 17);
-            this.label26.TabIndex = 2;
-            this.label26.Text = "Ytong";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(14, 132);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(98, 17);
-            this.label27.TabIndex = 4;
-            this.label27.Text = "Sklenená vata";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(14, 104);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(74, 17);
-            this.label31.TabIndex = 3;
-            this.label31.Text = "Polystyrén";
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(154, 14);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(53, 23);
-            this.numericUpDown1.TabIndex = 20;
+            this.numAreaFloor.Location = new System.Drawing.Point(154, 14);
+            this.numAreaFloor.Name = "numAreaFloor";
+            this.numAreaFloor.Size = new System.Drawing.Size(53, 23);
+            this.numAreaFloor.TabIndex = 20;
             // 
             // label28
             // 
@@ -898,6 +494,14 @@
             this.tabPage5.Text = "Celkova strata";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // txtResult
+            // 
+            this.txtResult.Location = new System.Drawing.Point(80, 51);
+            this.txtResult.Multiline = true;
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(381, 256);
+            this.txtResult.TabIndex = 0;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(606, 404);
@@ -908,13 +512,175 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // txtResult
+            // panel2
             // 
-            this.txtResult.Location = new System.Drawing.Point(80, 51);
-            this.txtResult.Multiline = true;
-            this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(381, 256);
-            this.txtResult.TabIndex = 0;
+            this.panel2.Controls.Add(this.cmbWall4);
+            this.panel2.Controls.Add(this.cmbWall3);
+            this.panel2.Controls.Add(this.cmbWall2);
+            this.panel2.Controls.Add(this.cmbWall1);
+            this.panel2.Controls.Add(this.numWall4);
+            this.panel2.Controls.Add(this.numWall3);
+            this.panel2.Controls.Add(this.numWall2);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.numWall1);
+            this.panel2.Location = new System.Drawing.Point(23, 45);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(285, 186);
+            this.panel2.TabIndex = 18;
+            // 
+            // cmbWall4
+            // 
+            this.cmbWall4.FormattingEnabled = true;
+            this.cmbWall4.Location = new System.Drawing.Point(10, 133);
+            this.cmbWall4.Name = "cmbWall4";
+            this.cmbWall4.Size = new System.Drawing.Size(121, 24);
+            this.cmbWall4.TabIndex = 24;
+            // 
+            // cmbWall3
+            // 
+            this.cmbWall3.FormattingEnabled = true;
+            this.cmbWall3.Location = new System.Drawing.Point(10, 103);
+            this.cmbWall3.Name = "cmbWall3";
+            this.cmbWall3.Size = new System.Drawing.Size(121, 24);
+            this.cmbWall3.TabIndex = 23;
+            // 
+            // cmbWall2
+            // 
+            this.cmbWall2.FormattingEnabled = true;
+            this.cmbWall2.Location = new System.Drawing.Point(10, 73);
+            this.cmbWall2.Name = "cmbWall2";
+            this.cmbWall2.Size = new System.Drawing.Size(121, 24);
+            this.cmbWall2.TabIndex = 22;
+            // 
+            // cmbWall1
+            // 
+            this.cmbWall1.FormattingEnabled = true;
+            this.cmbWall1.Location = new System.Drawing.Point(10, 42);
+            this.cmbWall1.Name = "cmbWall1";
+            this.cmbWall1.Size = new System.Drawing.Size(121, 24);
+            this.cmbWall1.TabIndex = 21;
+            // 
+            // numWall4
+            // 
+            this.numWall4.Location = new System.Drawing.Point(171, 134);
+            this.numWall4.Name = "numWall4";
+            this.numWall4.Size = new System.Drawing.Size(84, 23);
+            this.numWall4.TabIndex = 11;
+            // 
+            // numWall3
+            // 
+            this.numWall3.Location = new System.Drawing.Point(171, 104);
+            this.numWall3.Name = "numWall3";
+            this.numWall3.Size = new System.Drawing.Size(84, 23);
+            this.numWall3.TabIndex = 10;
+            // 
+            // numWall2
+            // 
+            this.numWall2.Location = new System.Drawing.Point(171, 74);
+            this.numWall2.Name = "numWall2";
+            this.numWall2.Size = new System.Drawing.Size(84, 23);
+            this.numWall2.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(168, 13);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 17);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Hrúbka v cm";
+            // 
+            // numWall1
+            // 
+            this.numWall1.Location = new System.Drawing.Point(171, 43);
+            this.numWall1.Name = "numWall1";
+            this.numWall1.Size = new System.Drawing.Size(84, 23);
+            this.numWall1.TabIndex = 7;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.cmbFloor4);
+            this.panel3.Controls.Add(this.cmbFloor3);
+            this.panel3.Controls.Add(this.cmbFloor2);
+            this.panel3.Controls.Add(this.cmbFloor1);
+            this.panel3.Controls.Add(this.numFloor4);
+            this.panel3.Controls.Add(this.numFloor3);
+            this.panel3.Controls.Add(this.numFloor2);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.numFloor1);
+            this.panel3.Location = new System.Drawing.Point(20, 54);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(285, 186);
+            this.panel3.TabIndex = 21;
+            // 
+            // cmbFloor4
+            // 
+            this.cmbFloor4.FormattingEnabled = true;
+            this.cmbFloor4.Location = new System.Drawing.Point(10, 133);
+            this.cmbFloor4.Name = "cmbFloor4";
+            this.cmbFloor4.Size = new System.Drawing.Size(121, 24);
+            this.cmbFloor4.TabIndex = 24;
+            // 
+            // cmbFloor3
+            // 
+            this.cmbFloor3.FormattingEnabled = true;
+            this.cmbFloor3.Location = new System.Drawing.Point(10, 103);
+            this.cmbFloor3.Name = "cmbFloor3";
+            this.cmbFloor3.Size = new System.Drawing.Size(121, 24);
+            this.cmbFloor3.TabIndex = 23;
+            // 
+            // cmbFloor2
+            // 
+            this.cmbFloor2.FormattingEnabled = true;
+            this.cmbFloor2.Location = new System.Drawing.Point(10, 73);
+            this.cmbFloor2.Name = "cmbFloor2";
+            this.cmbFloor2.Size = new System.Drawing.Size(121, 24);
+            this.cmbFloor2.TabIndex = 22;
+            // 
+            // cmbFloor1
+            // 
+            this.cmbFloor1.FormattingEnabled = true;
+            this.cmbFloor1.Location = new System.Drawing.Point(10, 42);
+            this.cmbFloor1.Name = "cmbFloor1";
+            this.cmbFloor1.Size = new System.Drawing.Size(121, 24);
+            this.cmbFloor1.TabIndex = 21;
+            // 
+            // numFloor4
+            // 
+            this.numFloor4.Location = new System.Drawing.Point(171, 134);
+            this.numFloor4.Name = "numFloor4";
+            this.numFloor4.Size = new System.Drawing.Size(84, 23);
+            this.numFloor4.TabIndex = 11;
+            // 
+            // numFloor3
+            // 
+            this.numFloor3.Location = new System.Drawing.Point(171, 104);
+            this.numFloor3.Name = "numFloor3";
+            this.numFloor3.Size = new System.Drawing.Size(84, 23);
+            this.numFloor3.TabIndex = 10;
+            // 
+            // numFloor2
+            // 
+            this.numFloor2.Location = new System.Drawing.Point(171, 74);
+            this.numFloor2.Name = "numFloor2";
+            this.numFloor2.Size = new System.Drawing.Size(84, 23);
+            this.numFloor2.TabIndex = 9;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(168, 13);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(87, 17);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Hrúbka v cm";
+            // 
+            // numFloor1
+            // 
+            this.numFloor1.Location = new System.Drawing.Point(171, 43);
+            this.numFloor1.Name = "numFloor1";
+            this.numFloor1.Size = new System.Drawing.Size(84, 23);
+            this.numFloor1.TabIndex = 7;
             // 
             // MainView
             // 
@@ -943,40 +709,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.numRoof1)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numAreaWall)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numAreaFloor)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numWall4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numWall3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numWall2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numWall1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numFloor4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFloor3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFloor2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numFloor1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1008,50 +758,8 @@
         private System.Windows.Forms.NumericUpDown numAreaRoof;
         private System.Windows.Forms.NumericUpDown numAreaWall;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numAreaFloor;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.NumericUpDown numericUpDown20;
-        private System.Windows.Forms.NumericUpDown numericUpDown21;
-        private System.Windows.Forms.NumericUpDown numericUpDown22;
-        private System.Windows.Forms.NumericUpDown numericUpDown23;
-        private System.Windows.Forms.NumericUpDown numericUpDown24;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.NumericUpDown numericUpDown25;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
-        private System.Windows.Forms.NumericUpDown numericUpDown9;
-        private System.Windows.Forms.NumericUpDown numericUpDown10;
-        private System.Windows.Forms.NumericUpDown numericUpDown11;
-        private System.Windows.Forms.NumericUpDown numericUpDown12;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.NumericUpDown numericUpDown13;
-        private System.Windows.Forms.NumericUpDown numericUpDown26;
-        private System.Windows.Forms.NumericUpDown numericUpDown27;
-        private System.Windows.Forms.NumericUpDown numericUpDown28;
-        private System.Windows.Forms.NumericUpDown numericUpDown29;
-        private System.Windows.Forms.NumericUpDown numericUpDown30;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.NumericUpDown numericUpDown31;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.ComboBox cmbRoof1;
@@ -1064,6 +772,26 @@
         private System.Windows.Forms.ComboBox cmbRoof3;
         private System.Windows.Forms.ComboBox cmbRoof2;
         private System.Windows.Forms.TextBox txtResult;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ComboBox cmbWall4;
+        private System.Windows.Forms.ComboBox cmbWall3;
+        private System.Windows.Forms.ComboBox cmbWall2;
+        private System.Windows.Forms.ComboBox cmbWall1;
+        private System.Windows.Forms.NumericUpDown numWall4;
+        private System.Windows.Forms.NumericUpDown numWall3;
+        private System.Windows.Forms.NumericUpDown numWall2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.NumericUpDown numWall1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.ComboBox cmbFloor4;
+        private System.Windows.Forms.ComboBox cmbFloor3;
+        private System.Windows.Forms.ComboBox cmbFloor2;
+        private System.Windows.Forms.ComboBox cmbFloor1;
+        private System.Windows.Forms.NumericUpDown numFloor4;
+        private System.Windows.Forms.NumericUpDown numFloor3;
+        private System.Windows.Forms.NumericUpDown numFloor2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.NumericUpDown numFloor1;
     }
 }
 

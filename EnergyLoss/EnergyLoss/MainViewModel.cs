@@ -15,9 +15,19 @@ namespace EnergyLoss
         public double MinOutTemp { get; set; }
         public double HeatTemp { get; set; }
         public double BuildType { get; set; }
-        //public List<Material> MaterialSteny = new List<Material>();
-        //public List<Material> MaterialStrechy = new List<Material>();
-        //public List<Material> MaterialPodlahy = new List<Material>();
+
+        public List<int> IdRoof { get; set; } = new List<int>();
+        public List<double> WidthRoof { get; set; } = new List<double>();
+        public double AreaRoof { get; set; }
+
+        public List<int> IdFloor { get; set; } = new List<int>();
+        public List<double> WidthFloor { get; set; } = new List<double>();
+        public double AreaFloor { get; set; }
+
+        public List<int> IdWall { get; set; } = new List<int>();
+        public List<double> WidthWall { get; set; } = new List<double>();
+        public double AreaWall { get; set; }
+
 
         public MainViewModel()
         {
@@ -38,6 +48,19 @@ namespace EnergyLoss
             return _materialRepos.CreateMaterial(ID,width);
         }
 
+        private Roof CreateRoof()
+        {
+            List<Material> materialRoof = new List<Material>();
+            for (int i = 0; i < IdRoof.Count; i++)
+            {
+                materialRoof.Add(CreateMaterial(IdRoof[i], WidthRoof[i]));
+            }
+            return new Roof(AreaRoof, materialRoof);
+        }
 
+        public double CalculateRoof()
+        {
+           return CreateRoof().Calc();
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EnergyLoss
 {
-    class Roof
+    public class Roof
     {
         public double Area { get; set; }
 
