@@ -44,7 +44,6 @@
             this.txtMinOutTmp = new System.Windows.Forms.TextBox();
             this.txtHeatTmp = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.numAreaRoof = new System.Windows.Forms.NumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -64,8 +63,6 @@
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.numAreaFloor = new System.Windows.Forms.NumericUpDown();
             this.label28 = new System.Windows.Forms.Label();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.txtResult = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.cmbWall4 = new System.Windows.Forms.ComboBox();
@@ -87,10 +84,10 @@
             this.numFloor2 = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
             this.numFloor1 = new System.Windows.Forms.NumericUpDown();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numAreaRoof)).BeginInit();
             this.panel1.SuspendLayout();
@@ -102,7 +99,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.numAreaWall)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numAreaFloor)).BeginInit();
-            this.tabPage5.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numWall4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numWall3)).BeginInit();
@@ -119,7 +115,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(16, 16);
+            this.label1.Location = new System.Drawing.Point(13, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 17);
             this.label1.TabIndex = 0;
@@ -129,7 +125,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label2.Location = new System.Drawing.Point(16, 46);
+            this.label2.Location = new System.Drawing.Point(13, 42);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(167, 17);
             this.label2.TabIndex = 1;
@@ -139,7 +135,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label5.Location = new System.Drawing.Point(16, 202);
+            this.label5.Location = new System.Drawing.Point(13, 198);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(210, 17);
             this.label5.TabIndex = 4;
@@ -149,7 +145,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label6.Location = new System.Drawing.Point(15, 233);
+            this.label6.Location = new System.Drawing.Point(12, 229);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(264, 17);
             this.label6.TabIndex = 5;
@@ -185,7 +181,7 @@
             this.groupBox1.Controls.Add(this.rBtnNatWind);
             this.groupBox1.Controls.Add(this.rBtnNatNorm);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.groupBox1.Location = new System.Drawing.Point(18, 88);
+            this.groupBox1.Location = new System.Drawing.Point(15, 84);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(421, 43);
             this.groupBox1.TabIndex = 8;
@@ -198,7 +194,7 @@
             this.groupBox2.Controls.Add(this.rBtnBuildNonProt);
             this.groupBox2.Controls.Add(this.rBtnBuildProt);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.groupBox2.Location = new System.Drawing.Point(18, 137);
+            this.groupBox2.Location = new System.Drawing.Point(15, 133);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(659, 43);
             this.groupBox2.TabIndex = 9;
@@ -246,70 +242,47 @@
             // 
             // txtTitle
             // 
-            this.txtTitle.Location = new System.Drawing.Point(291, 13);
+            this.txtTitle.Location = new System.Drawing.Point(288, 9);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(100, 23);
+            this.txtTitle.Size = new System.Drawing.Size(100, 20);
             this.txtTitle.TabIndex = 10;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(291, 43);
+            this.txtName.Location = new System.Drawing.Point(288, 39);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(330, 23);
+            this.txtName.Size = new System.Drawing.Size(330, 20);
             this.txtName.TabIndex = 11;
             // 
             // txtMinOutTmp
             // 
-            this.txtMinOutTmp.Location = new System.Drawing.Point(291, 199);
+            this.txtMinOutTmp.Location = new System.Drawing.Point(288, 195);
             this.txtMinOutTmp.Name = "txtMinOutTmp";
-            this.txtMinOutTmp.Size = new System.Drawing.Size(57, 23);
+            this.txtMinOutTmp.Size = new System.Drawing.Size(57, 20);
             this.txtMinOutTmp.TabIndex = 12;
             this.txtMinOutTmp.Tag = "";
             this.txtMinOutTmp.Text = "0";
             // 
             // txtHeatTmp
             // 
-            this.txtHeatTmp.Location = new System.Drawing.Point(291, 233);
+            this.txtHeatTmp.Location = new System.Drawing.Point(288, 229);
             this.txtHeatTmp.Name = "txtHeatTmp";
-            this.txtHeatTmp.Size = new System.Drawing.Size(57, 23);
+            this.txtHeatTmp.Size = new System.Drawing.Size(57, 20);
             this.txtHeatTmp.TabIndex = 13;
             this.txtHeatTmp.Tag = "";
             this.txtHeatTmp.Text = "0";
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Location = new System.Drawing.Point(16, 264);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(693, 361);
+            this.tabControl1.Size = new System.Drawing.Size(357, 361);
             this.tabControl1.TabIndex = 14;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.txtHeatTmp);
-            this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.txtMinOutTmp);
-            this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.txtName);
-            this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.txtTitle);
-            this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Controls.Add(this.groupBox2);
-            this.tabPage1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(685, 332);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Vlastnosti";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
@@ -319,14 +292,25 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(685, 332);
+            this.tabPage2.Size = new System.Drawing.Size(349, 332);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Strecha";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // numAreaRoof
             // 
+            this.numAreaRoof.DecimalPlaces = 2;
+            this.numAreaRoof.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numAreaRoof.Location = new System.Drawing.Point(159, 15);
+            this.numAreaRoof.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numAreaRoof.Name = "numAreaRoof";
             this.numAreaRoof.Size = new System.Drawing.Size(53, 23);
             this.numAreaRoof.TabIndex = 14;
@@ -381,6 +365,12 @@
             // 
             // numRoof4
             // 
+            this.numRoof4.DecimalPlaces = 2;
+            this.numRoof4.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numRoof4.Location = new System.Drawing.Point(171, 134);
             this.numRoof4.Name = "numRoof4";
             this.numRoof4.Size = new System.Drawing.Size(84, 23);
@@ -388,6 +378,12 @@
             // 
             // numRoof3
             // 
+            this.numRoof3.DecimalPlaces = 2;
+            this.numRoof3.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numRoof3.Location = new System.Drawing.Point(171, 104);
             this.numRoof3.Name = "numRoof3";
             this.numRoof3.Size = new System.Drawing.Size(84, 23);
@@ -395,6 +391,12 @@
             // 
             // numRoof2
             // 
+            this.numRoof2.DecimalPlaces = 2;
+            this.numRoof2.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numRoof2.Location = new System.Drawing.Point(171, 74);
             this.numRoof2.Name = "numRoof2";
             this.numRoof2.Size = new System.Drawing.Size(84, 23);
@@ -411,6 +413,12 @@
             // 
             // numRoof1
             // 
+            this.numRoof1.DecimalPlaces = 2;
+            this.numRoof1.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numRoof1.Location = new System.Drawing.Point(171, 43);
             this.numRoof1.Name = "numRoof1";
             this.numRoof1.Size = new System.Drawing.Size(84, 23);
@@ -440,7 +448,18 @@
             // 
             // numAreaWall
             // 
+            this.numAreaWall.DecimalPlaces = 2;
+            this.numAreaWall.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numAreaWall.Location = new System.Drawing.Point(157, 16);
+            this.numAreaWall.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numAreaWall.Name = "numAreaWall";
             this.numAreaWall.Size = new System.Drawing.Size(53, 23);
             this.numAreaWall.TabIndex = 17;
@@ -469,7 +488,18 @@
             // 
             // numAreaFloor
             // 
+            this.numAreaFloor.DecimalPlaces = 2;
+            this.numAreaFloor.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numAreaFloor.Location = new System.Drawing.Point(154, 14);
+            this.numAreaFloor.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numAreaFloor.Name = "numAreaFloor";
             this.numAreaFloor.Size = new System.Drawing.Size(53, 23);
             this.numAreaFloor.TabIndex = 20;
@@ -483,32 +513,13 @@
             this.label28.TabIndex = 18;
             this.label28.Text = "Plocha podlahy (m2)";
             // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.txtResult);
-            this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(685, 332);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Celkova strata";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // txtResult
-            // 
-            this.txtResult.Location = new System.Drawing.Point(80, 51);
-            this.txtResult.Multiline = true;
-            this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(381, 256);
-            this.txtResult.TabIndex = 0;
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(606, 404);
+            this.button1.Location = new System.Drawing.Point(481, 254);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 15;
-            this.button1.Text = "button1";
+            this.button1.Text = "Výpočet";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -562,6 +573,12 @@
             // 
             // numWall4
             // 
+            this.numWall4.DecimalPlaces = 2;
+            this.numWall4.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numWall4.Location = new System.Drawing.Point(171, 134);
             this.numWall4.Name = "numWall4";
             this.numWall4.Size = new System.Drawing.Size(84, 23);
@@ -569,6 +586,12 @@
             // 
             // numWall3
             // 
+            this.numWall3.DecimalPlaces = 2;
+            this.numWall3.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numWall3.Location = new System.Drawing.Point(171, 104);
             this.numWall3.Name = "numWall3";
             this.numWall3.Size = new System.Drawing.Size(84, 23);
@@ -576,6 +599,12 @@
             // 
             // numWall2
             // 
+            this.numWall2.DecimalPlaces = 2;
+            this.numWall2.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numWall2.Location = new System.Drawing.Point(171, 74);
             this.numWall2.Name = "numWall2";
             this.numWall2.Size = new System.Drawing.Size(84, 23);
@@ -592,7 +621,18 @@
             // 
             // numWall1
             // 
+            this.numWall1.DecimalPlaces = 2;
+            this.numWall1.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numWall1.Location = new System.Drawing.Point(171, 43);
+            this.numWall1.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.numWall1.Name = "numWall1";
             this.numWall1.Size = new System.Drawing.Size(84, 23);
             this.numWall1.TabIndex = 7;
@@ -647,6 +687,12 @@
             // 
             // numFloor4
             // 
+            this.numFloor4.DecimalPlaces = 2;
+            this.numFloor4.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numFloor4.Location = new System.Drawing.Point(171, 134);
             this.numFloor4.Name = "numFloor4";
             this.numFloor4.Size = new System.Drawing.Size(84, 23);
@@ -654,6 +700,12 @@
             // 
             // numFloor3
             // 
+            this.numFloor3.DecimalPlaces = 2;
+            this.numFloor3.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numFloor3.Location = new System.Drawing.Point(171, 104);
             this.numFloor3.Name = "numFloor3";
             this.numFloor3.Size = new System.Drawing.Size(84, 23);
@@ -661,6 +713,12 @@
             // 
             // numFloor2
             // 
+            this.numFloor2.DecimalPlaces = 2;
+            this.numFloor2.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numFloor2.Location = new System.Drawing.Point(171, 74);
             this.numFloor2.Name = "numFloor2";
             this.numFloor2.Size = new System.Drawing.Size(84, 23);
@@ -677,18 +735,43 @@
             // 
             // numFloor1
             // 
+            this.numFloor1.DecimalPlaces = 2;
+            this.numFloor1.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             this.numFloor1.Location = new System.Drawing.Point(171, 43);
             this.numFloor1.Name = "numFloor1";
             this.numFloor1.Size = new System.Drawing.Size(84, 23);
             this.numFloor1.TabIndex = 7;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(391, 289);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(283, 332);
+            this.textBox1.TabIndex = 17;
+            // 
             // MainView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(707, 439);
+            this.ClientSize = new System.Drawing.Size(691, 627);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtHeatTmp);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtMinOutTmp);
             this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtTitle);
             this.Name = "MainView";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
@@ -696,8 +779,6 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numAreaRoof)).EndInit();
@@ -713,8 +794,6 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numAreaFloor)).EndInit();
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numWall4)).EndInit();
@@ -728,6 +807,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numFloor2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numFloor1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -749,7 +829,6 @@
         private System.Windows.Forms.TextBox txtMinOutTmp;
         private System.Windows.Forms.TextBox txtHeatTmp;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
@@ -761,7 +840,6 @@
         private System.Windows.Forms.NumericUpDown numAreaFloor;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.ComboBox cmbRoof1;
         private System.Windows.Forms.NumericUpDown numRoof4;
         private System.Windows.Forms.NumericUpDown numRoof3;
@@ -771,7 +849,6 @@
         private System.Windows.Forms.ComboBox cmbRoof4;
         private System.Windows.Forms.ComboBox cmbRoof3;
         private System.Windows.Forms.ComboBox cmbRoof2;
-        private System.Windows.Forms.TextBox txtResult;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox cmbWall4;
         private System.Windows.Forms.ComboBox cmbWall3;
@@ -792,6 +869,7 @@
         private System.Windows.Forms.NumericUpDown numFloor2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown numFloor1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

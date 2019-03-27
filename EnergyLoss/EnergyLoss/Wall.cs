@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace EnergyLoss
 {
-    class Wall
+    class Wall : Construction
     {
+        public Wall(double area, List<Material> material) : base(area, material)
+        {
+
+        }
     }
 }

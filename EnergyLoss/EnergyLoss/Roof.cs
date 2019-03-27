@@ -6,26 +6,11 @@ using System.Threading.Tasks;
 
 namespace EnergyLoss
 {
-    public class Roof
+    public class Roof:Construction
     {
-        public double Area { get; set; }
-
-        private List<Material> MaterStrechy = new List<Material>();
-
-        public Roof(double area, List<Material> materStrechy)
+        public Roof(double area, List<Material> material) : base(area, material)
         {
-            Area = area;
-            MaterStrechy = materStrechy;
-        }
 
-        public double Calc()
-        {
-            double resistanceSum = 0;
-            foreach (Material material in MaterStrechy)
-            {
-                resistanceSum += material.Width/ material.Lambda;
-            }
-            return (1 / resistanceSum) * Area;
         }
     }
 }

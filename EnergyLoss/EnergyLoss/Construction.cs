@@ -6,7 +6,27 @@ using System.Threading.Tasks;
 
 namespace EnergyLoss
 {
-    class Construction
+    public class Construction
     {
+        public double Area { get; set; }
+
+        private List<Material> Materials = new List<Material>();
+
+        public Construction(double area, List<Material> material)
+        {
+            Area = area;
+            Materials = material;
+        }
+
+       
+        public double Calc(double tempDiff)
+        {
+            double resistanceSum = 0;
+            foreach (Material material in Materials)
+            {
+                resistanceSum += (material.Width*0.01) / material.Lambda;
+            }
+            return (1 / resistanceSum) * Area*tempDiff;
+        }
     }
 }
